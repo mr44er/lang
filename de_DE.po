@@ -82,7 +82,7 @@ msgid "Versions"
 msgstr "Versionen"
 
 msgid "Comma-separated list of services to NOT display in the widget"
-msgstr ""
+msgstr "Kommagetrennte Liste der Dienste, welche NICHT im Widget angezeigt werden sollen"
 
 msgid "Show how many characters from story:"
 msgstr "Wieviele Zeichen sollen aus dem Verlauf angezeigt werden:"
@@ -131,34 +131,34 @@ msgid "No active peers available"
 msgstr "Keine aktiven Peers verfügbar"
 
 msgid "Rows"
-msgstr ""
+msgstr "Reihen"
 
 msgid "Not changed"
-msgstr ""
+msgstr "Nicht geändert"
 
 msgid "Changed"
-msgstr ""
+msgstr "Geändert"
 
 msgid "Failed"
-msgstr ""
+msgstr "Gescheitert"
 
 msgid "Act"
 msgstr "Handlung"
 
 msgid "Interfaces to display:"
-msgstr ""
+msgstr "Anzuzeigende Schnittstellen"
 
 msgid "Update interval in seconds:"
-msgstr ""
+msgstr "Aktualisierungsintervall in Sekunden:"
 
 msgid "Number of log entries:"
-msgstr ""
+msgstr "Anzahl der Protokolleinträge:"
 
 msgid "Note: There are no configured IPsec Tunnels"
 msgstr "Hinweis: Es sind keine konfigurierten IPsec Tunnel vorhanden"
 
 msgid "Mobile Users"
-msgstr "mobile Benutzer"
+msgstr "Mobile Benutzer"
 
 msgid "Inactive Tunnels"
 msgstr "Inaktive Tunnel"
@@ -191,10 +191,10 @@ msgid "Packets In"
 msgstr "Pakete eingehend"
 
 msgid "Show"
-msgstr ""
+msgstr "Zeige"
 
 msgid "Hide"
-msgstr ""
+msgstr "Verberge"
 
 #, php-format
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
@@ -237,10 +237,10 @@ msgid "Protocol / Port"
 msgstr "Protokoll / Port"
 
 msgid "Use username instead of common name to match client specfic override."
-msgstr ""
+msgstr "Verwenden Sie den Benutzernamen anstelle des allgemeinen Namens, um die client-spezifische Überschreibung abzugleichen."
 
 msgid "Force CSO Login Matching"
-msgstr ""
+msgstr "Erzwinge CSO Login Matching"
 
 #, php-format
 msgid ""
@@ -336,7 +336,7 @@ msgid ""
 "subnet per client (topology net30)."
 msgstr ""
 "Weise nur eine IP pro Client (Topologie Subnetz), anstelle eines isolieren "
-"Subnetzes pro Client (Topologie Netz 30) zu."
+"Subnetzes pro Client (Topologie Netz CIDR /30) zu."
 
 msgid "Topology"
 msgstr "Netzstruktur"
@@ -666,7 +666,7 @@ msgid ""
 "NOTE: Remember to add these subnets to the IPv6 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
-"HINWEIS: Vergessen Sie nicht darauf, diese Subnetze zur fernen IPv6-"
+"HINWEIS: Vergessen Sie nicht, diese Subnetze zur fernen IPv6-"
 "Netzwerkliste in den zugehörigen OpenVPN-Servereinstellungen hinzuzufügen."
 
 msgid ""
@@ -685,7 +685,7 @@ msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
-"HINWEIS: Vergessen Sie nicht darauf, diese Subnetze zur fernen IPv4-"
+"HINWEIS: Vergessen Sie nicht, diese Subnetze zur fernen IPv4-"
 "Netzwerkliste in den zugehörigen OpenVPN-Servereinstellungen hinzuzufügen."
 
 msgid ""
@@ -1176,10 +1176,10 @@ msgstr ""
 "Systemroutingtabelle hinzugefügt werden. Siehe charon.install_routes"
 
 msgid "Do not automatically install routes"
-msgstr "Routen nicht automatisch installieren"
+msgstr "Routen nicht automatisch setzen"
 
 msgid "Do not install routes"
-msgstr "Routen nicht installieren"
+msgstr "Routen nicht setzen"
 
 msgid ""
 "This exempts traffic for one or more subnets from getting processed by the "
@@ -1223,7 +1223,7 @@ msgid "Entry \"%s\" is not a valid network."
 msgstr "Der Eintrag \"%s\" ist kein valides Netzwerk."
 
 msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
-msgstr "z.B. 92.168.1.0/24, 192.168.2.0/24"
+msgstr "z.B. 192.168.1.0/24, 192.168.2.0/24"
 
 msgid ""
 "Strongswan automatically creates SPD policies for the networks defined in "
